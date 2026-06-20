@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="kanban-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="kanban-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="18" height="80" rx="6" fill="#64748b" opacity="0.2"/>
+    <rect x="3" y="8" width="12" height="24" rx="4" fill="url(#kanban-grad)" />
+    <rect x="3" y="38" width="12" height="16" rx="4" fill="#94a3b8" />
+
+    <rect x="26" y="0" width="18" height="80" rx="6" fill="#64748b" opacity="0.2"/>
+    <rect x="29" y="16" width="12" height="28" rx="4" fill="url(#kanban-grad)" />
+    <rect x="29" y="50" width="12" height="20" rx="4" fill="#94a3b8" />
+
+    <rect x="52" y="0" width="18" height="80" rx="6" fill="#64748b" opacity="0.2"/>
+    <rect x="55" y="32" width="12" height="32" rx="4" fill="url(#kanban-accent)" />
+    
+    <path d="M 15 20 L 32 30 L 58 48" stroke="#2563eb" stroke-width="4" stroke-linecap="round" opacity="0.4" fill="none" />
+    <path d="M 15 46 L 32 30 L 58 60" stroke="#2563eb" stroke-width="4" stroke-linecap="round" opacity="0.4" fill="none" />
+  </g>
+
+  <g transform="translate(115, 73)">
+    <text font-family="Inter, system-ui, -apple-system, sans-serif" font-size="46" font-weight="800" fill="#0f172a" letter-spacing="-1.5">
+      Kanban
+      <tspan font-weight="400" fill="#64748b" letter-spacing="-0.5">board</tspan>
+    </text>
+  </g>
+
+  <circle cx="432" cy="62" r="5" fill="url(#kanban-accent)" />
+</svg>

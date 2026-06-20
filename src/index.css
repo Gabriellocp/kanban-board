@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+body {
+  margin: 0;
+}
+
+@theme {
+  --font-sans: 'Elms Sans'
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
